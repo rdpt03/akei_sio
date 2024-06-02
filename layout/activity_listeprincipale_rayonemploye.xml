@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activityListeprincipaleRayonemployeActivity">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="165dp"
+        app:srcCompat="@drawable/logoakei" />
+
+    <TextView
+        android:id="@+id/et_titreRayon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Liste des rayons"
+        android:textSize="20sp" />
+
+    <ListView
+        android:id="@+id/lv_listeDesRayons"
+        android:layout_width="match_parent"
+        android:layout_height="257dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Les Magasins"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <ListView
+        android:id="@+id/lv_listeDeMagasins"
+        android:layout_width="match_parent"
+        android:layout_height="252dp" />
+
+    <Button
+        android:id="@+id/bt_obtenirResultat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+
+</LinearLayout>

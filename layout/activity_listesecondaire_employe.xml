@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activityListesecondaireEmployeActivity">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="165dp"
+        app:srcCompat="@drawable/logoakei" />
+
+    <SearchView
+        android:id="@+id/sv_rechercheEmployee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/et_titreEmploye"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Liste des employes du rayon"
+        android:textSize="20sp" />
+
+    <ListView
+        android:id="@+id/lv_listeEmployes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <SearchView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>
